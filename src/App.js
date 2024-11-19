@@ -1,24 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/classComponent';
+import Welcome2 from './components/functionConponent';
+import User from './components/User';
+import ShowData from './components/showData';
+import Card from './components/Card.js'
+import List from './components/List.js'
 
 function App() {
+  const items = ["בננה","אגס","תפוח"]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+ {/* <Welcome name = "Sara"/>
+ <Welcome2>אני הילדים של הקומפוננטה השניה</Welcome2> */}
+   {/* <h1>Time to Practice</h1>
+      <p>Welcome on board of this course! You got this 💪</p>
+      <User /> */}
+{/* <ShowData/> */}
+{/* <Card name="Anthony Blake">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Blake is a professor of Computer Science at the University of
+          Illinois.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <p>
+          <a href="mailto:michalcs0533@gmail.com">Email Michal</a>
+        </p>
+      </Card> */}
+      <h1 dir='rtl'>רשימת הקניות שלי</h1>
+      <List items = {items}/>
+ </div>
   );
 }
 
