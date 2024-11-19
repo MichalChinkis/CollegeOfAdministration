@@ -5,10 +5,12 @@ import Welcome2 from './components/functionConponent';
 import User from './components/User';
 import ShowData from './components/showData';
 import Card from './components/Card.js'
-import List from './components/List.js'
+// import List from './components/List.js'
+import List from './components/Tasks/List.js'
 
 function App() {
   const items = ["בננה","אגס","תפוח"]
+  const tasks = ["ללמוד React", "לסיים שיעורי בית", "לשתות קפה"];
 
   return (
     <div>
@@ -27,8 +29,9 @@ function App() {
           <a href="mailto:michalcs0533@gmail.com">Email Michal</a>
         </p>
       </Card> */}
-      <h1 dir='rtl'>רשימת הקניות שלי</h1>
-      <List items = {items}/>
+      {/* <h1 dir='rtl'>רשימת הקניות שלי</h1>
+      <List items = {items}/> */}
+<List tasks = {tasks}/>
  </div>
   );
 }
