@@ -1,0 +1,16 @@
+/* BookTable.css */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;  /* מאחד את הגבולות של תאים צמודים */
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #ddd;  /* קובע גבול בעובי של פיקסל אחד */
+    padding: 8px;  /* ריווח פנימי */
+  }
+  
+  .styled-table th {
+    background-color: #f2f2f2;  /* רקע לכותרות */
+    text-align: left;  /* יישור טקסט לשמאל */
+  }
+  
