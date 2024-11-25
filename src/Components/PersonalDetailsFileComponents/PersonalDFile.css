@@ -1,0 +1,38 @@
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e91e63;
+  }
+  
